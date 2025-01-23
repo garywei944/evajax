@@ -7,6 +7,8 @@ import equinox as eqx
 from jaxtyping import Array, Float, jaxtyped
 from beartype import beartype as typechecker
 
+from transformers import FlaxGPT2LMHeadModel
+
 
 class LeNetFlaxNative(nn.Module):
     def setup(self):
